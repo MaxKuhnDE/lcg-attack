@@ -1,0 +1,8 @@
+# Kompilierte Programme
+lkg
+angriff_m_bekannt
+angriff_m_unbekannt
+*.exe
+*.o
+cmake-build-*/
+.idea/
