@@ -118,6 +118,8 @@ Getestete Beispiele (je 6 aufeinanderfolgende Zustände):
 
 Beispiel für den kompletten Angriff: Der Generator mit a = 345, b = 235, m = 3253 und Startwert 32 liefert die Zustände 1516, 2775, 1228, 1005, 2142, 794. `angriff_m_unbekannt` findet daraus m = 3253, und `angriff_m_bekannt` mit m = 3253 und den ersten vier Werten liefert a = 345 und b = 235.
 
-## Hinweis zur Entstehung
+## Entstehung
+
+Der Code ist im Rahmen des Praktikums entstanden. Diese Dokumentation wurde mit Hilfe von Claude (Anthropic) auf Basis der Abgabe erstellt.
 
 Die beiden Angriffsprogramme lagen nur noch als Screenshots in der Abgabe vor und wurden daraus übernommen. In `angriff_m_bekannt.c` sind die Funktion `ggt()`, die Fallunterscheidung `d == 1` und das Einlesen von x3 ergänzt, weil diese Teile im Screenshot nicht zu sehen waren; in `angriff_m_unbekannt.c` fehlte `#include <stdio.h>`. Alle Beispiele in den Tabellen oben wurden mit den Programmen in diesem Repository nachgerechnet.
